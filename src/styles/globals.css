@@ -121,6 +121,11 @@ html {
   animation-play-state: paused;
 }
 
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 .active::before {
   content: "";
   position: absolute;
